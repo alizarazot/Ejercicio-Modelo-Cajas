@@ -11,11 +11,10 @@ header {
 
 section {
     background-color: green;
-    overflow: hidden;
+    display: flex;
 }
 
 nav {
-    float: left;
     width: 25%;
     background-color: coral;
 }
@@ -26,7 +25,6 @@ footer {
 }
 
 article {
-    float: left;
     width: 75%;
     background-color: beige;
     height: 240px;
